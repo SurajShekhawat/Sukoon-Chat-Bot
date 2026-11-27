@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+mobile/node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+/playwright-report/
+/test-results/
+
+# Expo / React Native
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+*.pem
+
+# Local environment files
+.env
+.env*.local
+!.env.example
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
