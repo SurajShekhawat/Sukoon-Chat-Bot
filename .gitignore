@@ -28,8 +28,10 @@ mobile/web-build/
 
 # Local environment files
 .env
-.env*.local
-!.env.example
+.env*
+*.env*
+.env.example
+mobile/.env.example
 
 # Vercel
 .vercel
